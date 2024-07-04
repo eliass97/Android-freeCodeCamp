@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">My Library</string>
+
+    <string name="activity_login">Login</string>
+    <string name="activity_register">Register</string>
+    <string name="activity_books_menu">Menu</string>
+    <string name="activity_all_books">All Books</string>
+    <string name="activity_currently_reading_books">Currently Reading Books</string>
+    <string name="activity_already_read_books">Already Read Books</string>
+    <string name="activity_favorite_books">Favorite Books</string>
+    <string name="activity_wishlist_books">Wishlist</string>
+
+    <string name="settings_tab">Settings</string>
+    <string name="logout_tab">Logout</string>
+
+    <string name="pick_image_label">Pick Image</string>
+    <string name="name_label">Name</string>
+    <string name="email_label">E-mail</string>
+    <string name="password_label">Password</string>
+    <string name="re_enter_password_label">Re-enter password</string>
+
+    <string name="accept_terms_label">By clicking here, I state that I have read and understood the terms and conditions.</string>
+    <string name="terms_agree">I agree</string>
+
+    <string name="register_btn_label">Register</string>
+    <string name="login_btn_label">Login</string>
+
+    <string name="application_submitted">Hello %1$s! Your application has been submitted.</string>
+
+    <string name="gender_label">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+
+    <string name="country_label">Country</string>
+    <string-array name="countries">
+        <item name="us">USA</item>
+        <item name="uk">UK</item>
+        <item name="fr">France</item>
+        <item name="de">Germany</item>
+    </string-array>
+
+    <string name="warning_login">Failed to login. E-mail or password is wrong.</string>
+    <string name="warning_name">Please enter your name</string>
+    <string name="warning_email">Please enter your e-mail address</string>
+    <string name="warning_password">Please enter a password</string>
+    <string name="warning_repeat_password">Passwords do not match</string>
+    <string name="warning_accept_terms">You must accept the terms in order to register</string>
+
+    <string name="my_library_label">My Library</string>
+    <string name="all_books_label">All Books</string>
+    <string name="currently_reading_books_label">Currently Reading Books</string>
+    <string name="already_read_books_label">Already Read Books</string>
+    <string name="favorite_books_label">Favorite Books</string>
+    <string name="wishlist_label">Wishlist</string>
+    <string name="make_currently_reading_label">Make currently reading</string>
+    <string name="make_already_read">Make already read</string>
+    <string name="put_favorites_label">Put to favorites</string>
+    <string name="put_wishlist_label">Put to wishlist</string>
+
+    <string name="book_item_title_label">Book Title</string>
+    <string name="book_item_image_description">Book Description</string>
+
+    <string name="arrow_down">Arrow down</string>
+    <string name="arrow_up">Arrow up</string>
+    <string name="remove">Remove</string>
+
+    <string name="label_author">Author:</string>
+    <string name="label_pages">Pages:</string>
+    <string name="label_short_description">Short Description</string>
+    <string name="label_full_description">Full Description</string>
+
+    <string name="sample_text">Sample Text</string>
+</resources>

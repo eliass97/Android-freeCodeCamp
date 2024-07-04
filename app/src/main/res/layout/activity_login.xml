@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.LoginActivity"
+        android:padding="10dp">
+
+    <TextView
+            android:id="@+id/login_WarningTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/warning_login"
+            android:textColor="#F40808"
+            android:textStyle="italic"
+            android:fontFamily="@font/lobster_two"
+            android:visibility="gone"/>
+
+    <EditText
+            android:id="@+id/login_EmailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/login_WarningTextView"
+            android:hint="@string/email_label"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/black"
+            android:autofillHints="emailAddress"/>
+
+    <EditText
+            android:id="@+id/login_PasswordTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_EmailTextView"
+            android:layout_marginTop="20dp"
+            android:hint="@string/password_label"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/black"
+            android:autofillHints="password"/>
+
+    <Button
+            android:id="@+id/login_LoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/login_PasswordTextView"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_btn_label"
+            android:textAllCaps="false"/>
+
+    <ProgressBar
+            android:id="@+id/login_ProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+</RelativeLayout>
